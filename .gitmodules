@@ -1,3 +1,24 @@
 [submodule "public/plugin/lokka-link_url_replace"]
 	path = public/plugin/lokka-link_url_replace
 	url = git://github.com/daic-h/lokka-link_url_replace.git
+[submodule "public/plugin/lokka-tweet_feed"]
+	path = public/plugin/lokka-tweet_feed
+	url = git://github.com/daic-h/lokka-tweet_feed.git
+[submodule "public/plugin/lokka-tag_cloud"]
+	path = public/plugin/lokka-tag_cloud
+	url = git://github.com/daic-h/lokka-tag_cloud.git
+[submodule "public/plugin/lokka-syntax_highlighter"]
+	path = public/plugin/lokka-syntax_highlighter
+	url = git://github.com/daic-h/lokka-syntax_highlighter.git
+[submodule "public/plugin/lokka-read_more"]
+	path = public/plugin/lokka-read_more
+	url = git://github.com/nkmrshn/lokka-read_more.git
+[submodule "public/plugin/lokka-amazon_associate"]
+	path = public/plugin/lokka-amazon_associate
+	url = git://github.com/morygonzalez/lokka-amazon_associate.git
+[submodule "public/theme/grace"]
+	path = public/theme/grace
+	url = git://github.com/daic-h/grace.git
+[submodule "public/plugin/lokka-tweet_button"]
+	path = public/plugin/lokka-tweet_button
+	url = git://github.com/nkmrshn/lokka-tweet_button.git
