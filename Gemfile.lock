@@ -20,12 +20,16 @@ GIT
 
 GEM
   remote: http://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     RedCloth (4.2.9)
     abstract (1.0.0)
     activesupport (3.1.1)
       multi_json (~> 1.0)
     addressable (2.2.8)
+    amazon-ecs (2.2.4)
+      nokogiri (~> 1.4)
+      ruby-hmac (~> 0.3)
     backports (2.3.0)
     bcrypt-ruby (3.0.1)
     bond (0.4.2)
@@ -122,6 +126,7 @@ GEM
     rspec-expectations (2.8.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.8.0)
+    ruby-hmac (0.4.0)
     sass (3.1.1)
     simple_oauth (0.1.7)
     simplecov (0.6.1)
@@ -174,6 +179,7 @@ PLATFORMS
 DEPENDENCIES
   RedCloth (= 4.2.9)
   activesupport (= 3.1.1)
+  amazon-ecs
   backports (= 2.3.0)
   builder (= 3.0.0)
   bundler
