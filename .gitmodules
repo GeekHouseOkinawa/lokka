@@ -1,0 +1,3 @@
+[submodule "public/plugin/lokka-link_url_replace"]
+	path = public/plugin/lokka-link_url_replace
+	url = git://github.com/daic-h/lokka-link_url_replace.git
