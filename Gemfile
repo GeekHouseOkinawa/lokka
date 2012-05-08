@@ -68,4 +68,4 @@ end
 gem 'oauth'
 gem 'twitter'
 gem 'json'
-
+gem 'thin'
