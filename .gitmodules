@@ -16,9 +16,6 @@
 [submodule "public/plugin/lokka-amazon_associate"]
 	path = public/plugin/lokka-amazon_associate
 	url = git://github.com/morygonzalez/lokka-amazon_associate.git
-[submodule "public/theme/grace"]
-	path = public/theme/grace
-	url = git://github.com/daic-h/grace.git
 [submodule "public/plugin/lokka-tweet_button"]
 	path = public/plugin/lokka-tweet_button
 	url = git://github.com/nkmrshn/lokka-tweet_button.git
