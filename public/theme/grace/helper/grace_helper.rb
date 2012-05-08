@@ -3,9 +3,9 @@ module Lokka
   module Helpers
     SOCIAL_URL = {
       :rss      => "http://www.google.com/ig/add?source=atgs&feedurl=http://blog.geeoki.com",
-      :twitter  => "https://twitter.com/Daic_h",
-      :facebook => "http://www.facebook.com/hirata.daichi",
-      :github   => "https://github.com/daic-h",
+      :twitter  => "https://twitter.com/geeokibot",
+      :facebook => "http://www.facebook.com/geeoki",
+      :github   => "https://github.com/GeekHouseOkinawa",
       :aboutme  => "http://about.me/daic_h"
     }
 
@@ -43,9 +43,12 @@ module Lokka
       <script>
         new TWTR.Widget({
           version: 2,
-          type: 'profile',
+          type: 'search',
+          search: 'ギークハウス沖縄 OR ギー沖',
+          title: 'ギークハウス沖縄',
+          subject: '那覇市古波蔵2-18-14に来いよ',
           rpp: 5,
-          interval: 6000,
+          interval: 30000,
           width: 'auto',
           height: 'auto',
           theme: {
@@ -68,7 +71,7 @@ module Lokka
             avatars: false,
             behavior: 'all'
           }
-        }).render().setUser('Daic_h').start();
+        }).render().start();
       </script>
       HTML
       html.html_safe
