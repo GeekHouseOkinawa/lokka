@@ -3,7 +3,7 @@
 	url = git://github.com/daic-h/lokka-link_url_replace.git
 [submodule "public/plugin/lokka-tweet_feed"]
 	path = public/plugin/lokka-tweet_feed
-	url = git://github.com/daic-h/lokka-tweet_feed.git
+	url = git://github.com/GeekHouseOkinawa/lokka-tweet_feed.git
 [submodule "public/plugin/lokka-tag_cloud"]
 	path = public/plugin/lokka-tag_cloud
 	url = git://github.com/daic-h/lokka-tag_cloud.git
