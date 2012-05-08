@@ -78,7 +78,7 @@ module Lokka
       <<-HTML
         <a href="https://twitter.com/share"
            class="twitter-share-button"
-           data-url="http://blog.geeoki.com/#{entry.link}"
+           data-url="http://blog.geeoki.com#{entry.link}"
            data-text="#{entry.title} - ギークハウス沖縄"
            data-lang="ja" data-count="none">Tweet</a>
         <script>
