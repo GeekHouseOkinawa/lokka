@@ -22,3 +22,6 @@
 [submodule "public/plugin/lokka-tweet_button"]
 	path = public/plugin/lokka-tweet_button
 	url = git://github.com/nkmrshn/lokka-tweet_button.git
+[submodule "public/plugin/lokka-plusone"]
+	path = public/plugin/lokka-plusone
+	url = git://github.com/nkmrshn/lokka-plusone.git
