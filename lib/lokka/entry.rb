@@ -179,8 +179,8 @@ class Post < Entry
         :second   => self.created_at.sec.to_s.rjust(2,'0'),
         :post_id  => self.id.to_s,
         :id       => self.id.to_s,
-        :slug     => self.slug || self.id.to_s,
-        :postname => self.slug || self.id.to_s,
+        :slug     => self.fuzzy_slug.to_s,
+        :postname => self.fuzzy_slug.to_s,
         :category => self.category ? (self.category.slug || self.category.id.to_s) : ""
       })
     else
