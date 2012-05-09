@@ -392,7 +392,7 @@ module Lokka
         when :post_id, :id
           conds[:id] = value.to_i
         when :postname, :slug
-          conds[:slug] = value
+          conds[:slug] = CGI.unescape(value)
         when :category
           conds[:category_id] = Category(value).id
         end

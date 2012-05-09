@@ -127,7 +127,7 @@ module Lokka
     end
 
     # entry
-    get %r{^/([_/0-9a-zA-Z-]+)$} do |id_or_slug|
+    get %r{^/([_/0-9a-zA-Z\-%. ]+)$} do |id_or_slug|
       @entry = Entry.get_by_fuzzy_slug(id_or_slug)
 
       return 404 if @entry.blank?
