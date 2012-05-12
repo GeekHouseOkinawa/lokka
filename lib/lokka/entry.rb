@@ -11,6 +11,7 @@ class Entry
   property :markup, String, :length => 255
   property :type, Discriminator
   property :draft, Boolean, :default => false
+  property :future, Boolean, :default => false
   property :created_at, DateTime
   property :updated_at, DateTime
 
@@ -157,6 +158,10 @@ class Entry
   
     def unpublished
       all(:draft => true)
+    end
+
+    def future
+      all(:future => true)
     end
   end
 end

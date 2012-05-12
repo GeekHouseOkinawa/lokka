@@ -43,6 +43,10 @@
     %br/
     = f.check_box :draft
   .field
+    = f.label :future, :caption => t("#{@name}.future")
+    %br/
+    = f.check_box :future
+  .field
     = f.label :created_at, :caption => t("#{@name}.created_at")
     %br/
     = f.text_field :created_at

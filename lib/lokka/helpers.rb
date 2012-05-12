@@ -252,6 +252,7 @@ module Lokka
       if params['preview']
         render_preview entry_class.new(params[@name])
       else
+        p params[@name]
         if @entry.update(params[@name])
           flash[:notice] = t("#{@name}_was_successfully_updated")
           redirect_after_edit(@entry)
