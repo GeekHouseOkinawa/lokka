@@ -38,10 +38,11 @@ module Lokka
           I18n.load_path += "#{@theme.i18n_dir}/*.yml"
         end
 
-        Entry.future.each {|entry|
-          if entry.created_at < DateTime.now
-            entry.update("draft" => false, "future" => false)
-          end
+        @future_entries = Entry.future.select {|entry|
+          entry.created_at < DateTime.now
+        }
+        @future_entries.each {|entry|
+          entry.update("draft" => false, "future" => false)
         }
       end
 
