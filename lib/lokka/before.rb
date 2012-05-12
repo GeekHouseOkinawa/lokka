@@ -37,6 +37,12 @@ module Lokka
         if @theme.exist_i18n?
           I18n.load_path += "#{@theme.i18n_dir}/*.yml"
         end
+
+        Entry.future.each {|entry|
+          if entry.created_at < DateTime.now
+            entry.update("draft" => false, "future" => false)
+          end
+        }
       end
 
       app.before %r{(?!^/admin/login$)^/admin/.*$} do

@@ -35,6 +35,7 @@ ja:
   field_names: カスタムフィールド
   list: 一覧
   draft: 下書き
+  future: 予約投稿
   new: 登録
   edit: 編集
   preview: プレビュー
@@ -123,6 +124,7 @@ ja:
     category: カテゴリー
     tags: タグ
     draft: 下書き
+    future: 予約投稿
     created_at: 作成日時
     updated_at: 更新日時
   page:
@@ -134,6 +136,7 @@ ja:
     category: カテゴリー
     tags: タグ
     draft: 下書き
+    future: 予約投稿
     created_at: 作成日時
     updated_at: 更新日時
   post:
@@ -145,6 +148,7 @@ ja:
     category: カテゴリー
     tags: タグ
     draft: 下書き
+    future: 予約投稿
     created_at: 作成日時
     updated_at: 更新日時
   category:
