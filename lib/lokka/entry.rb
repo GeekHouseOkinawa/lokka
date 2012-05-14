@@ -55,7 +55,7 @@ class Entry
   end
 
   def fuzzy_slug
-    slug.blank? ? id : slug
+    slug.blank? ? id : URI.encode(slug)
   end
 
   def link
